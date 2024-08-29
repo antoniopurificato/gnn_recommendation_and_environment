@@ -1,0 +1,5 @@
+recbole==1.1.1
+codecarbon==2.5.0
+deepspeed==0.14.4
+matplotlib==3.9.1.post1
+torch_geometric
