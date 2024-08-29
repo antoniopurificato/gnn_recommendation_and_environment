@@ -23,11 +23,13 @@
 ```python3 train.py --models [LightGCN, NGCF, SimGCL, LightGCL] --datasets [ml-1m, diangping, amazon-beauty] --epochs NUM_EPOCHS --embeddings_sizes EMB_SIZES```
 
 An example:
+
 ```python3 train.py --models NGCF --datasets ml-1m --epochs 10 --embeddings_sizes 32```
 
 Remember than you can put in the terminal multiple values for the epochs and the embedding sizes and the code will automatically sweep on that parameters.
 
 Sometimes it happens that DianPing generates an error with the RecBole library. If this is the case use the following command:
+
 ```mv dataset/dianping/DianPing/DianPing.inter dataset/dianping/dianping.inter && mv dataset/dianping/DianPing/DianPing.item dataset/dianping/dianing.item```
 
 ## Acknowledgments:
