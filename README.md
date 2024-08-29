@@ -2,8 +2,9 @@
 
 ## Setup
 
-- Download the anonymous repo and go in the downloaded folder:
-``` cd ```
+- Since anonymous repos can not be cloaned, download **this anonymous repo** and go in the downloaded folder:
+
+``` cd gnn_recommendation_and_environment-98E7```
 
 - Install Pytorch Geometric:
 
