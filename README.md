@@ -2,9 +2,9 @@
 
 ## Setup
 
-- Since anonymous repos can not be cloaned, download **this anonymous repo** and go in the downloaded folder:
+- Clone the repo:
 
-``` cd gnn_recommendation_and_environment-98E7```
+``` git clone https://github.com/antoniopurificato/gnn_recommendation_and_environment.git && cd gnn_recommendation_and_environment-98E7```
 
 - Install Pytorch Geometric:
 
