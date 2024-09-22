@@ -4,11 +4,15 @@
 
 - Clone the repo:
 
-``` git clone https://github.com/antoniopurificato/gnn_recommendation_and_environment.git && cd gnn_recommendation_and_environment-98E7```
+``` git clone https://github.com/antoniopurificato/gnn_recommendation_and_environment.git && cd gnn_recommendation_and_environment```
+
+- Create the exps folder:
+
+  ```mkdir exps```
 
 - Install Pytorch Geometric:
 
-```pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.4.0+cu124.html```
+```bash install_pyg.bash```
 
 - Install the required packages:
 
@@ -20,11 +24,11 @@
 
 - Run an experiment:
 
-```python3 train.py --models [LightGCN, NGCF, SimGCL, LightGCL] --datasets [ml-1m, diangping, amazon-beauty] --epochs NUM_EPOCHS --embeddings_sizes EMB_SIZES```
+```python3 train.py --models [LightGCN, NGCF, SimGCL, LightGCL] --datasets [ml-1m, diangping, amazon-beauty] --epochs NUM_EPOCHS --embedding_sizes EMB_SIZES```
 
 An example:
 
-```python3 train.py --models NGCF --datasets ml-1m --epochs 10 --embeddings_sizes 32```
+```python3 train.py --models NGCF --datasets ml-1m --epochs 10 --embedding_sizes 32```
 
 Remember than you can put in the terminal multiple values for the epochs and the embedding sizes and the code will automatically sweep on that parameters.
 
